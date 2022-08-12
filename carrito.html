@@ -10,10 +10,18 @@
   <body>
     <div class="contenedor">
       <h3>Su carrito de Compras</h3>
-      <input type="text" id="producto" placeholder="Ingrese su producto" />
-      <input type="number" id="precio" placeholder="Ingrese precio" />
-      <button id="btn-agregar">Agregar al carrito</button>
-      <button id="btn-calcular">Calcular Total</button>
+      <div>
+        <input type="text" id="producto" placeholder="Ingrese su producto" />
+      </div>
+      <div>
+        <input type="number" id="precio" placeholder="Ingrese precio" />
+      </div>
+      <div>
+        <button id="btn-agregar">Agregar al carrito</button>
+      </div>
+      <div>
+        <button id="btn-calcular">Calcular Total</button>
+      </div>
     </div>
     <div class="contenedor-2">
       <h4>Su lista de Compras</h4>
@@ -21,6 +29,8 @@
       <h4>El total de su compra es $</h4>
       <span id="total"></span>
     </div>
+    <button id="btn-aplicar">Aplicar Descuento</button>
+    <p class="descuento"></p>
 
     <script src="src/pagina2/index.ts"></script>
   </body>

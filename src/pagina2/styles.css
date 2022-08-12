@@ -1,3 +1,12 @@
 .contenedor {
+  background-color: darkgray;
   flex: wrap;
+  padding: 10px;
+  margin: 10px;
+}
+.contenedor div {
+  margin: 5px;
+  font-size: 30px;
+  border: 3px;
+  justify-content: center;
 }

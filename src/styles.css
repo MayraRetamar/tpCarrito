@@ -12,10 +12,13 @@ img {
 h3 {
   text-align: center;
   background-color: lightblue;
+  
 }
 .contenedor-2 {
   display: flex
   padding: 30px;
   font-family: fantasy;
   padding: 30px;
+  background-color: lightgreen;
+  margin: 40px;
 }
