@@ -1,7 +1,10 @@
+body { 
+    background-color: MediumPurple;
+}
 .contenedor {
   background-color: darkgray;
   flex: wrap;
-  padding: 10px;
+  padding: 20px;
   margin: 10px;
 }
 .contenedor div {
@@ -9,4 +12,9 @@
   font-size: 30px;
   border: 3px;
   justify-content: center;
+}
+.contenedor-2 { 
+  background-color: tan;
+  padding: 35px;
+  margin: 60px;
 }

@@ -1,7 +1,10 @@
+body { 
+   background-color: MediumPurple;
+}
 .container-fluid {
   background-color: darkgrey;
 }
-h1 {
+h1 { 
   text-align: center;;
 }
 img {
